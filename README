@@ -1,0 +1,20 @@
+## Estrutura de Pastas
+
+- **/apps/**  
+  Contém as aplicações principais, como o backend, frontend e mobile.
+
+  - `/backend/` - Código do servidor e APIs.
+  - `/frontend/` - Interface do usuário.
+  - `/mobile/` - Aplicativo mobile, se aplicável.
+
+- **/packages/**  
+  Módulos reutilizáveis para diferentes partes do projeto.
+  - `/docs/` - Documentação do projeto, como diagramas e relatórios.
+  - `/core/` - Código compartilhado entre todas as aplicações (exemplo: utilitários, autenticação).
+
+## Plugins Usados
+
+- **Excalidraw**  
+  Ferramenta para criar diagramas e desenhos.
+- **Material Icon Theme**  
+  Adiciona ícones personalizados para pastas e arquivos no VS Code.
