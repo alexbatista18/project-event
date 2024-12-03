@@ -1,5 +1,7 @@
 ## Estrutura de Pastas
 
+- **/.vscode/**  
+  Utilizado para testar scripts.
 - **/apps/**  
   Contém as aplicações principais, como o backend, frontend e mobile.
 
@@ -7,14 +9,25 @@
   - `/frontend/` - Interface do usuário.
   - `/mobile/` - Aplicativo mobile, se aplicável.
 
+- **/frontend/**  
+  Contém todo o projeto frontend, organizado em várias subpastas:
+
+  - **/public/** - Arquivos públicos, como imagens e outros recursos estáticos.
+  - **/src/** - Diretório principal com o código do frontend.
+    - **/components/** - Componentes reutilizáveis e específicos do projeto.
+      - **/template/** - Estrutura base da página, como cabeçalhos, rodapés, logotipos, etc.
+    - **/app/** - Configurações globais, incluindo o arquivo `global.css` para padronizar estilos e a página principal do projeto `page.tsx`.
+
 - **/packages/**  
-  Módulos reutilizáveis para diferentes partes do projeto.
-  - `/docs/` - Documentação do projeto, como diagramas e relatórios.
-  - `/core/` - Código compartilhado entre todas as aplicações (exemplo: utilitários, autenticação).
+  Contém módulos reutilizáveis e utilitários para o projeto.
+
+  - `/docs/` - Documentação, incluindo diagramas e relatórios.
+  - `/core/` - Código compartilhado entre diferentes partes do projeto (ex.: utilitários, autenticação).
 
 ## Plugins Usados
 
 - **Excalidraw**  
   Ferramenta para criar diagramas e desenhos.
+
 - **Material Icon Theme**  
   Adiciona ícones personalizados para pastas e arquivos no VS Code.
