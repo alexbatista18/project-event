@@ -17,6 +17,9 @@
     - **/components/** - Componentes reutilizáveis e específicos do projeto.
       - **/template/** - Estrutura base da página, como cabeçalhos, rodapés, logotipos, etc.
     - **/app/** - Configurações globais, incluindo o arquivo `global.css` para padronizar estilos e a página principal do projeto `page.tsx`.
+      -- Criando pastas como rotas
+      Ao criar uma pasta em app, ela é defiinida como uam rota para uma nova página caso tenha um arquivo chamado "page.tsx".
+      Ao criar um arquivo layout naquela pasta, ela vai ser definido como um layout para todos os arquivos naquela pasta. Se eu possuo um pasta com outras 2 pastas, sendo essas 2 páginas e colocar o layout antes dessas 2, também é aplicado
 
 - **/packages/**  
   Contém módulos reutilizáveis e utilitários para o projeto.
